@@ -25,13 +25,38 @@ h1{
     font-size: 48px
 }
 
-p,a{
+.title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.para,a,footer{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
+.signup .container{
+    background-color: #3882f6;
+}
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+nav .container{
+    display: flex;
+
+}
