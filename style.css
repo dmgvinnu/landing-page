@@ -31,6 +31,7 @@ h1{
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: 16px auto 32px;
 }
 
 .para,a,footer{
@@ -80,4 +81,37 @@ header .container{
     width: 900px;
     height: 270px;
     margin-left: 64px;
+}
+
+.info .container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    text-align: center;
+    gap: 8px;
+    width: 25%;
+}
+
+img.image{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 4px solid #3882f6;
+}
+
+.fact{
+    max-width: 200px;
+    color: #1f2937;
 }
